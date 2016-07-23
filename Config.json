@@ -1,0 +1,67 @@
+{
+  "config":{
+    "APTURL":"monitor.robrotheram.com",
+    "TokenURL":"XXXXXXXXXXXXX",
+  },
+  "routes":[
+    {
+      "_id":1,
+      "URL":"robrotheram.com",
+      "TYPE":"HTML",
+      "XPATH":"title",
+      "EXPECTED":"Robert Fletcher"
+    },
+    {
+      "_id":3,
+      "URL":"taiga.robrotheram.com",
+      "TYPE":"HTML",
+      "XPATH":"title",
+      "EXPECTED":"Taigaiocainelockpromotetrashunlockclient-requirementprojectteam-requirementaddscrumbulkclosedashboarddiscoverdragexclamationflagfold-columnfold-rowgraphissueskanbanlike-emptylikeactivityquestionsearchsettingsteamtimelineunfold-columnunfold-rowunwatchuserwikiarchivearrow-downarrow-leftarrow-rightarrow-upattachmentbriefcasebubble-emptybubblebugcapslockcheckclipboarddocumentdocumentsdownvoteediterrorfilters-emptyfiltersgithubmaximizeminimizemovereloadsaveuploadupvotewriterwatchcheck-emptytaskapicustomizefeel-lovehighly-designedintegrationlend-handpowerfulsmileysocial-managementspeak-upgallerylistLooking for peopleOwner BadgeExclamationBlocked Project" //I am too lazy to work out why Taiga reports this string as the title
+
+    },
+    {
+      "URL":"robrotheram.com",
+      "TYPE":"PIING",
+      "PORT":5000,
+      "_id":4
+    },
+    {
+      "_id":5,
+      "URL":"gamealition.com",
+      "TYPE":"HTML",
+      "XPATH":"title",
+      "EXPECTED":"Gamealition - We play and host games!"
+    },
+    {
+      "_id":6,
+      "URL":"forums.gamealition.com",
+      "TYPE":"HTML",
+      "XPATH":"title",
+      "EXPECTED":"Gamealition - Index"
+    },
+    {
+      "URL":"irc.us.gamesurge.net",
+      "TYPE":"PIING",
+      "PORT":6667,
+      "_id":7
+    },
+    {
+      "URL":"gamealition.com",
+      "TYPE":"PIING",
+      "PORT":25565,
+      "_id":8
+    },
+    {
+      "URL":"gamealition.com",
+      "TYPE":"PIING",
+      "PORT":25567,
+      "_id":9
+    },
+    {
+      "URL":"gamealition.com",
+      "TYPE":"PIING",
+      "PORT":64738,
+      "_id":10
+    }
+  ]
+}
